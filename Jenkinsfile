@@ -8,7 +8,7 @@ pipeline {
     }
     
     environment {
-         SONAR_CREDENTIALS = credentials('sonar-token')
+        SONAR_CREDENTIALS = credentials('hello-world')
         ARTIFACTORY_CREDENTIALS = credentials('artifactory-credentials')
         DEPLOY_SERVER = '10.0.1.71' // Replace with your server IP
         DEPLOY_USER = 'ssm-user'     // Replace with your server username
